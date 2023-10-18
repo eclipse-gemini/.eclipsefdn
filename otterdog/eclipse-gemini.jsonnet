@@ -88,14 +88,14 @@ orgs.newOrg('eclipse-gemini') {
     orgs.newRepo('gemini.management') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
+      default_branch: "main",
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
     orgs.newRepo('gemini.management-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "master",
+      default_branch: "main",
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
