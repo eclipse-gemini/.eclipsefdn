@@ -27,6 +27,11 @@ orgs.newOrg('eclipse-gemini') {
     },
   ],
   _repositories+:: [
+    orgs.newRepo('.github') {
+      allow_merge_commit: true,
+      delete_branch_on_merge: false,
+      description: "Global configurations for the eclipse-gemini GitHub organization",
+    },
     orgs.newRepo('gemini-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
