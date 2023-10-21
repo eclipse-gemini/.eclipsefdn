@@ -42,7 +42,6 @@ orgs.newOrg('eclipse-gemini') {
     orgs.newRepo('gemini.blueprint') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "main",
       delete_branch_on_merge: false,
       has_issues: false,
       has_wiki: false,
@@ -51,7 +50,6 @@ orgs.newOrg('eclipse-gemini') {
     orgs.newRepo('gemini.blueprint-website') {
       allow_merge_commit: true,
       allow_update_branch: false,
-      default_branch: "main",
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
