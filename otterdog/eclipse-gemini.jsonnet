@@ -25,9 +25,6 @@ orgs.newOrg('eclipse-gemini') {
       allow_merge_commit: true,
       delete_branch_on_merge: false,
       description: "Global configurations for the eclipse-gemini GitHub organization",
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
     orgs.newRepo('gemini-website') {
       allow_merge_commit: true,
@@ -46,9 +43,6 @@ orgs.newOrg('eclipse-gemini') {
       has_issues: false,
       has_wiki: false,
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
     },
     orgs.newRepo('gemini.blueprint-website') {
       allow_merge_commit: true,
