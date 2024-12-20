@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-gemini') {
+orgs.newOrg('rt.gemini', 'eclipse-gemini') {
   settings+: {
     description: "",
     name: "Eclipse Gemini",
